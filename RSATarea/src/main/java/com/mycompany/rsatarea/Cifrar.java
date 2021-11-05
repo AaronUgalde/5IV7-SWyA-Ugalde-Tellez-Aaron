@@ -13,7 +13,7 @@ import java.math.BigInteger;
  */
 public class Cifrar extends javax.swing.JPanel {
 
-    public BigInteger[] cifrar(String mensaje,BigInteger e, BigInteger n){
+    private BigInteger[] cifrar(String mensaje,BigInteger e, BigInteger n){
         
         int i;
         byte[] temp = new byte[1];
