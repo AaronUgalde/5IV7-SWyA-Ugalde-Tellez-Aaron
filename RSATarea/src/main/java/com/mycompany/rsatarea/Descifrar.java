@@ -13,7 +13,7 @@ import java.math.BigInteger;
  */
 public class Descifrar extends javax.swing.JPanel {
 
-    public String descifrar(BigInteger[] cifrado, BigInteger d, BigInteger n){
+    private String descifrar(BigInteger[] cifrado, BigInteger d, BigInteger n){
         
         BigInteger[] descifrado = new BigInteger[cifrado.length];
         
